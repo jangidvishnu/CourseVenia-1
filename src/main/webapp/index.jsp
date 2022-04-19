@@ -1,10 +1,7 @@
-
- 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta name="viewport"
-<meta charset="utf-8" />
+<meta name="viewport" <meta charset="utf-8" />
 	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta name="description" content="" />
 <meta name="author" content="" />
@@ -46,9 +43,11 @@
 					<li class="nav-item mx-0 mx-lg-1"><a
 						class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
 					<li class="nav-item mx-0 mx-lg-1"><a
-						class="nav-link py-3 px-0 px-lg-3 rounded" href="/CourseVeniaPro/login">Logout</a></li>
+						class="nav-link py-3 px-0 px-lg-3 rounded"
+						href="/CourseVeniaPro/login">Logout</a></li>
 					<li class="nav-item mx-0 mx-lg-1 bg-danger"><a
-						class="nav-link py-3 px-0 px-lg-3 rounded" href="/CourseVeniaPro/login"><%=session.getAttribute("name") %>
+						class="nav-link py-3 px-0 px-lg-3 rounded"
+						href="/CourseVeniaPro/login"><%=session.getAttribute("name")%>
 					</a></li>
 
 				</ul>
@@ -63,7 +62,7 @@
 			<!-- Masthead Heading-->
 			<h1 class="masthead-heading text-uppercase mb-0">
 				Welcome
-				<%=session.getAttribute("name") %>
+				<%=session.getAttribute("name")%>
 				to CourseVenia
 			</h1>
 			<!-- Icon Divider-->
@@ -625,6 +624,11 @@
 		src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 	<!-- Core theme JS-->
 	<script src="js/scripts.js"></script>
+	<script src="js/darkmin.js"></script>
+	<script>
+		new Darkmode().showWidget(); // Import Your JavaScript file here ( Options File)
+	</script>
+	<Script src="js/dark.js"></script>
 	<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
 	<!-- * *                               SB Forms JS                               * *-->
 	<!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
