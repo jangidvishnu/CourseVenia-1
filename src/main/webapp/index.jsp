@@ -626,7 +626,7 @@
 	<script src="js/scripts.js"></script>
 	<script src="js/darkmin.js"></script>
 	<script>
-		new Darkmode().showWidget(); // Import Your JavaScript file here ( Options File)
+		new Darkmode().showWidget(); 
 	</script>
 	<Script src="js/dark.js"></script>
 	<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
